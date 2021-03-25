@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Scribbler - a codding landing page template for codrops</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+      <link rel="stylesheet" href="scribbler-global.css">
+      <link rel="stylesheet" href="scribbler-landing.css">
+      <link rel="author" href="humans.txt">
+      <style type="text/css">
+        .hljs-string{
+          color:#8E7474;
+        }
+        .hljs-attribute{
+          color:#8E7474;
+        }
+        .hljs-number{
+          color:#8E7474;
+        }
+      </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo"></div>
+      <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item"><a href="doc.html" class="link link--dark"><i class="fa fa-book"></i> Documentation</a></li>
+        <li class="menu__item"><a href="" class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1 class="hero__title">Malik Derkaoui</h1>
+      <p class="hero__description">Bienvenue sur mon portfolio ! 👋🏻</p>
+    </div>
+    <div class="hero__terminal">
+      <pre>
+        <code class="shell-session demo">Malik ~ $ </code>
+      </pre>
+    </div>
+    <div class="wrapper">
+      <div class="installation">
+        <h3 class="section__title">Découvrez ma candidature</h3>
+        <div class="tab__container">
+          <ul class="tab__menu">
+            <li class="tab active" data-tab="mac">Que recherches-tu ?</li>
+            <li class="tab" data-tab="linux">Tes Disponibilités ?</li>
+          </ul>
+          <pre class="nohighlight code">
+            <code class="tab__pane active mac">Coucou 😃,
+               je recherche un stage dans lequel je pourrai m'épanouir tout en apprenant !<br><br>
+              <h3 style="position: relative;align-items: center; text-align: center;"><a href="CV Malik Derkaoui.pdf">Télécharger mon CV</a></h3><br>
+            <b>Tel : 06.52.19.81.18 <br><br> E-mail : malik.derkaoui@gmail.com <br><br> Linkedin : @malikderkaoui</code>
+            <code class="tab__pane linux" style="background-color: #f8f8fa; color:#8E7474!important">Alors c'est tout simple, je dois effectuer un stage d'une durée de 4 à 5 mois à partir du 12 Avril 2021. En Septembre, je pars à San Francisco pour y suivre un programme d'entrepreunariat, je suis donc disponible jusqu'au 12 septembre 😉</code>
+          </pre>
+        </div>
+      </div>
+      <br>
+      <h3 class="section__title">Mes SoftSkills </h3>
+      <div class="tab__container">
+        <pre class="nohighlight code">
+          <code class="tab__pane active mac">- <b>Organisation</b> : Afin de réaliser mes projets j'utilise des outils comme Trello afin de bien planifier mes tâches !<br><br> - <b>Créativité</b> : J'aime faire des propositions qui se démarquent des autres. Un ingénieur qui se veut innovant !<br><br> - <b>Travail d'équipe</b> : J'adore collaborer en équipe ! Je suis une personne très ouverte et à l'écoute de tout le monde !<br><br> - <b>Autonomie</b> : Grâce à mon attirance pour les projets et à ma soif de réussir, j'ai acquis une forte autonomie à travers les nombreux projets auxquels j'ai participé.
+
+
+          </code>
+        </pre>
+      </div>
+      <h3 class="section__title">Mes réalisations</h3>
+      <div class="feature">
+        <div class="feature__item">
+          <img src="covid.gif" alt="Covid" width="100%"/>
+          <h3 class="section__title">Dashboard Covid - Novembre 2020</h3>
+          <p>Application affichant les données issues des différents gouvernements sur le COVID. <br>L'application a été développée en <b>ReactJS</b> pour le frontend et en <b>NodeJS</b> pour le backend (<b>API Rest</b>).<br> <b>En Binôme</b> <br> <a style="color:#b94b4c;" href="https://covid19projet.herokuapp.com/">En savoir plus.</a></p>
+        </div>
+        <div class="feature__item">
+          <img src="gif.gif" alt="Ebay" width="100%"/>
+          <h3 class="section__title">Ebay Marketplace - Avril 2020</h3>
+          <p>Ce projet est un projet (<b>HTML/CSS/PHP/SQL</b>) réalisé en 1 semaine (piscine)<br>c'est un site avec plusieurs fonctionnalités tel qu'un <br>système d'achat direct acheteur/vendeur, un système d'enchère et un système de négociation.<br> <b>En Trinôme</b> <br> <a style="color:#b94b4c;" href="https://github.com/malikotte/Projet-Piscine-EBAY">En savoir plus.</a></p>
+        </div>
+        <div class="feature__item">
+          <img src="api.gif" alt="Ip" width="100%"/>
+          <h3 class="section__title">Ip Tracker - Décembre 2020</h3>
+          <p>Site développé en <b>Reactjs</b> permettant de géolocaliser une adresse ip ou dns à l'aide d'une <b>API</b>.<br><b>Personnel</b> <br><a style="color:#b94b4c;" href="https://github.com/malikotte/Projet-Ip-Tracker">En savoir plus.</a></p>
+        </div>
+        <div class="feature__item">
+          <img src="Capture.PNG" alt="Ip" width="100%"/>
+          <h3 class="section__title">IoT : Station météo - Mars 2021</h3>
+          <p>Objet connecté : Permet de mesurer température / humidité de la salle + Activation via google home ou manuellement d'un servomoteur. Utilisation d'<b>API Rest</b> et de <b>MQTT</b> <br> <b>Individuel</b><br><a style="color:#b94b4c;" href="https://github.com/malikotte/Station-meteo">En savoir plus.</a>
+          </p>
+        </div>
+        <div class="feature__item">
+          <img src="inscription.png" alt="Ip" width="90%"/>
+          <h3 class="section__title">UX/UI Design - Decembre 2020</h3>
+          <p>Développer un chat permettant de faciliter les relations entre les citoyens et leur gouvernement, administration. (<b>Recherche Utilisateur, Qualification du besoin, Idéation, MVP, Prototypage</b>). <br> <b>Individuel</b><br><a style="color:#b94b4c;" href="https://www.notion.so/Projet-Final-Malik-Derkaoui-b372b24b59144f4db27707a562e7c0f5">En savoir plus.</a></p>
+        </div>
+        <div class="feature__item">
+          <img src="HOMEhome.png" alt="Ip" width="60%"/>
+          <h3 class="section__title">Cavaliés - Mars 2021</h3>
+          <p>Réalisation d'une maquette dans le cadre d'un projet <b>Entrepreunariat</b> (<b>Wireframes, Charte Graphique</b>) <br> <b>Individuel</b><br><a style="color:#b94b4c;" href="Prototypage.pdf">En savoir plus.</a></p>
+        </div>
+        <div class="feature__item">
+          <img src="trophee.PNG" alt="Ip" width="60%"/>
+          <h3 class="section__title">Modélisation 3D (en cours) </h3>
+          <p>Réalisation d'un trophée pour l'Ece Paris, utilisation du fablab de l'école, <b>impressions 3D et Découpe laser au rendez-vous</b> <br> <b>En équipe de 10</b><br><a style="color:#b94b4c;" href="#">En savoir plus.</a></p>
+        </div>
+        <div class="feature__item">
+          <img src="swift.png" alt="Ip" width="90%"/>
+          <h3 class="section__title">App météo Swift (en cours)</h3>
+          <p>Développement d'une App météo iOS en <b>Swift</b> <br> <b>En équipe de 4</b><br><a style="color:#b94b4c;" href="#">En savoir plus.</a></p>
+        </div>
+        
+      </div>
+    <div class="">
+        <h3 class="section__title">Mon école </h3>
+        <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Ece%20paris+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+  
+    </div>
+    <footer class="footer">Merci et à bientôt ! :) <a href="https://www.linkedin.com/in/malik-derkaoui-84a52a163/" target="_blank" class="link link--light">Malik Derkaoui</a>.</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="scribbler.js"></script>
+  </body>
+</html>
