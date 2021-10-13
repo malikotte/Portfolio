@@ -13,7 +13,7 @@ var getAll = function (selector, scope) {
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
   var txt = `Salut !
-            Je me présente, Malik Derkaoui, élève ingénieur à l'Ece Paris en 4 eme année dans la filière Objets Connectés Réseaux et Services
+            Je me présente, Malik Derkaoui, élève ingénieur à l'Ece Paris en 5 eme année dans la filière Objets Connectés Réseaux et Services et StartupFactory
             Vous pouvez découvrir sur ce site tous les projets sur lesquels j'ai travaillé, il y a des projets personnels et scolaires.
 Si vous avez des questions n'hésitez pas à me contacter à l'adresse mail suivante 
 malik.derkaoui@gmail.com ou bien au 06.52.19.81.18`
